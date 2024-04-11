@@ -1,0 +1,48 @@
+form {
+    /* Style the form container */
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Style form elements */
+
+input[type="First name"],
+input[type="Last name"],
+input[type="Email"],
+input[type="Age"],
+input[type="phone number"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; 
+}
+
+/* Style submit button */
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+label {
+    font-weight: bold;
+}
+input:invalid {
+    border-color: red;
+}
+
+input:valid {
+    border-color: green;
+}
